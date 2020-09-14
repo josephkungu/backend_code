@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Bootstrap 4 Static Navbar with Dropdown and Search Form</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<style type="text/css">
+	/*.bs{
+        margin: 20px;
+		/*background-color: white;
+	}*/
+    .bs-example{
+
+        margin: 0px;
+        background-color: #293503;
+    }
+    a{
+        color: yellow;
+    }
+</style>
+</head>
+<body>
+	<div class="bs">
+    <nav class="navbar navbar-expand-md navbar-light bg-white">
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+            <div class="navbar-nav">
+                <img src="LOGO1.png" width="30%">
+
+            </div>
+
+            <div class="navbar-nav">
+
+            	<a href="#" class="nav-item nav-link">SWITCH STATION</a>
+                <a href="#" class="nav-item nav-link">LOGOUT</a>
+                <a href="#" class="nav-item nav-link">HELP</a>
+            </div>
+        </div>
+    </nav>
+</div>
+<div class="bs-example">
+    <nav class="navbar navbar-expand-md navbar-light bg-green">
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+            <div class="navbar-nav">
+               <a href="home.php">HOME</a>&nbsp;&nbsp;
+           <a href="registers.php">REGISTER CASE</a>&nbsp;&nbsp;
+           <a href="#">EFILING</a>&nbsp;&nbsp;
+            <a href="search.php">SEARCH CASES</a>&nbsp;&nbsp;
+            <a href="#">MASTER DIARY</a>&nbsp;&nbsp;
+            <a href="#"> REPORT</a>&nbsp;&nbsp;
+            <a href="clients.php"> CLIENTS</a>
+
+            </div>
+            <br>
+            <div class="navbar-nav">
+               <a href="index.php"> login</a>
+            </div>
+        </div>
+    </nav>
+</div>
+<form method="POST">
+    <input type="text" name="Phone Number" pattern="[7-9]{1}[0-9]{9}" 
+       title="Phone number with 7-9 and remaing 9 digit with 0-9">
+         Phone Number (format: xxxxxxxxxx):
+  <input type="tel" pattern="^\d{10}$" required >
+  <label for="name">Name:</label>
+
+<input type="text" id="name" name="name" required
+       minlength="4" maxlength="8" size="10">
+       <input type="submit" name="submit" value="submit" align="center">
+</form>
+
+</body>
+</html>    

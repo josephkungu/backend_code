@@ -1,0 +1,58 @@
+   body{
+  background-color: #f5efdf;
+  padding: 10px 10px;
+}
+
+    .top{
+         background-color: #999999;
+        text-align: center;
+        padding-top: 2px;
+        padding-bottom: 2px;
+    }
+    .bs-example{
+
+        margin: 0px;
+        background-color: #293503;
+    }
+    a{
+        color: yellow;
+    }
+    table p{
+        text-align: center;
+        color: yellow;
+    }
+    table td{
+    text-align: center;
+    }
+    .footer{
+        background-color: #eee1c9;
+        text-align: center;
+    }
+        .form{
+        background-color: #ffffcc;
+        margin: auto;
+    
+
+    }
+    .form .title{
+        align-content: center;
+    }
+    .form .name{
+    border-style: solid;
+    margin-bottom: 20px;
+    
+    }
+    .form .pass{
+    border-style: solid;
+    margin-bottom: 20px;
+    
+    }
+    .form .log{
+        background-color: yellow;
+    }
+     .login a{
+        color: black;
+    }
+    .form .btn a{
+        color: black;
+    }
